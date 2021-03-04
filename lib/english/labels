@@ -160,12 +160,16 @@ extmgr.error.nomain=Manifest does not contain Main-Class attribute
 extmgr.error.notsubclass=Main class is not a subclass of Extension
 extmgr.error.cannotload=Extension could not be loaded
 
+
+
+
+
 #---------------
 #Editor labels
 #---------------
 editor.title=BlueJ: Editor
 
-#button lables for toolbar commands
+#button labels for toolbar commands
 editor.compileLabel = Compile
 editor.undoLabel = Undo
 editor.cutLabel = Cut

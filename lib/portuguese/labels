@@ -1,17 +1,13 @@
-#Text for labels in BlueJ
-#Sun Aug 29 14:58:48 BRT 2004
 okay=Ok
 cancel=Cancelar
 close=Fechar
 continue=Continuar
+or=or
 
 main.invalidPackage=Pacote n\u00E3o encontrado
 
-compileException=Exce\u00E7\u00E3o gerada durante a compila\u00E7\u00E3o
+compileException=Exce\u00E7\u00E3o durante a compila\u00E7\u00E3o
 compiler.thread.title=Thread do compilador do BlueJ
-compiler.warningDialog.title=Avisos do Compilador
-compiler.warningDialog.label=Avisos da \u00FAltima compila\u00E7\u00E3o
-compiler.warningDialog.noWarnings=Sem avisos
 
 debugger.assert.assertThatResIs=Assegure que\: resultado \u00E9
 debugger.assert.equalTo=igual a
@@ -37,7 +33,7 @@ debugger.inspector.get=Obter
 debugger.inspector.class.nameLabel=Classe
 debugger.inspector.enum.nameLabel=Enumera\u00E7\u00E3o
 debugger.inspector.interface.nameLabel=Interface
-
+debugger.inspector.numFields=Number of fields
 
 debugger.objectwrapper.methodException=Exce\u00E7\u00E3o ao acessar m\u00E9todos\:
 debugger.objectwrapper.invocationException=Exce\u00E7\u00E3o durante invoca\u00E7\u00E3o\:
@@ -46,6 +42,8 @@ debugger.objectwrapper.remove=Remover
 debugger.objectwrapper.serializable=Serializar
 debugger.objectwrapper.redefined=redefinido em
 debugger.objectwrapper.inherited=herdado de
+debugger.objectwrapper.noMethods=(No accessible methods)
+debugger.objectwrapper.moreMethods=more methods
 
 debugger.threadstatus.finished=terminado
 debugger.threadstatus.breakpoint=no breakpoint
@@ -68,6 +66,7 @@ debugger.jdiDebugger.internalErrorMsg=Erro interno durante a tentativa de por \n
 debugger.accessibility.breakpoint=Thread "$" alcan\u00E7ou breakpoint.
 debugger.accessibility.paused=Thread "$" pausada.
 
+
 # Painel de elementos de interface de usu\u00e1rio e mensagens de erro do gerenciador de classes
 classmgr.prefpaneltitle=Bibliotecas
 classmgr.userlibraries=Bibliotecas do Usu\u00E1rio
@@ -84,6 +83,8 @@ classmgr.error.nodescription=Sem descri\u00E7\u00E3o
 classmgr.error.missingclasspath=Nenhum classpath. O carrregamento das classes pode apresentar problemas\nporque as classes do diret\u00F3rio corrente ser\u00E3o resolvidas primeiro..
 prefmgr.title=Prefer\u00EAncias
 
+# Preferences Manager user interface elements and error messages
+prefmgr.title=Preferences
 
 # Miscelanea painel de preferencias
 prefmgr.misc.prefpaneltitle=Miscel\u00E2nea
@@ -100,15 +101,15 @@ prefmgr.misc.optimiseVM=Usar otimiza\u00E7\u00E3o (execu\u00E7\u00E3o mais r\u00
 prefmgr.misc.addLibTitle=Selecione o diret\u00F3rio ou o arquivo jar/zip
 prefmgr.misc.libFileFilter=Arquivos de bibliotecas (*.jar;*.zip) ou diret\u00F3rios de classes
 prefmgr.misc.showUnchecked=Mostrar alertas do compilador quando cole\u00E7\u00F5es insegurar s\u00E3o usadas
-prefmgr.misc.wtk.dir.label=Pasta do toolkit wireless
-prefmgr.misc.wtk.button=Browse
-prefmgr.misc.filechooser.title=Selecione pasta do toolkit wireless
+prefmgr.misc.runOnThread=Run user code in this project on thread:
+prefmgr.misc.run.fx=JavaFX
+prefmgr.misc.run.swing=Swing/AWT
+prefmgr.misc.run.default=Default
 prefmgr.collection.title=Participa\u00E7\u00E3o em Pesquisa
 prefmgr.collection.change=Mudar
 prefmgr.collection.identifier.explanation=Voc\u00EA apenas necessita preencher as informa\u00E7\u00F5es abaixo se solicitado por um pesquisador
 prefmgr.collection.identifier.experiment=Identificador do Experimento
 prefmgr.collection.identifier.participant=Identificador do Participante
-
 
 #Painel de preferencias do editor
 prefmgr.edit.prefpaneltitle=Editor
@@ -118,10 +119,14 @@ prefmgr.edit.colortransparency=Destacamento de contexto
 prefmgr.edit.usesyntaxhilighting=Usar sintaxe destacada
 prefmgr.edit.autoindent=Auto-endentac\u00E3o (teclas Enter e Tab)
 prefmgr.edit.displaylinenumbers=Exibir n\u00FAmeros de linhas
+prefmgr.edit.checkfilechangeondisk=Check file changes on the disk
 prefmgr.edit.matchBrackets=Casar colchetes
 prefmgr.edit.keybindingstitle=atalhos do teclado
 prefmgr.edit.highlightLighter=Claro
 prefmgr.edit.highlightDarker=Escuro
+
+# Extensions Preferences panel
+prefmgr.extensions.noContent=No extension content to display.
 
 # Interface preferences panel
 prefmgr.interface.title=Interface
@@ -134,17 +139,13 @@ prefmgr.accessibility.support=Suporte de acessibilidade
 #Painel de ajuda do gerenciador de extencoes
 extmgr.title=BlueJ\:  Extens\u00F5es instaladas
 extmgr.extensions=Extens\u00F5es
-extmgr.systemExtensionShort=Sistema
-extmgr.systemExtensionLong=Extens\u00E3o de sistema (ativo para todos os projetos)
-extmgr.projectExtensionShort=Projeto
-extmgr.projectExtensionLong=Extens\u00E3o de projeto (apenas para o projeto corrente)
-extmgr.statuscolumn=Status
-extmgr.namecolumn=Nome
-extmgr.typecolumn=Tipo
-extmgr.details=Detalhes
-extmgr.details.location=Localiza\u00E7\u00E3o
-extmgr.details.version=Vers\u00E3o
-extmgr.details.url=Mais informa\u00E7\u00E3o em\:
+extmgr.noExtensionInstalled=No extension installed.
+extmgr.systemExtensionShort=System
+extmgr.systemExtensionLong=System extension (active for all projects)
+extmgr.projectExtensionShort=Project
+extmgr.projectExtensionLong=Project extension (for current project only)
+extmgr.details.location=Location:
+extmgr.details.version=version
 
 extmgr.status.notused=n\u00E3o usado
 extmgr.status.loaded=carregado
@@ -153,18 +154,22 @@ extmgr.status.unloaded=descarregado
 extmgr.version.unknown=desconhecido
 extensions.nodescription=N\u00E3o fornecido(a).
 
-#Erros na extencao
+#Erros na extensao
 extmgr.error.nomanifest=Sem arquivo de manifesto
 extmgr.error.nomain=Manifesto n\u00E3o cont\u00E9m atributo Main-Class
 extmgr.error.notsubclass=A classe principal n\u00E3o \u00E9 subclasse de Extension
 extmgr.error.cannotload=Extens\u00E3o n\u00E3o pode ser carregada
+
+
+
+
 
 #---------------
 #labels do Editor
 #---------------
 editor.title=BlueJ\: Editor
 
-#lables dos botoes da barra de ferramentas de comandos
+#rotulos dos botoes da barra de ferramentas de comandos
 editor.compileLabel=Compilar
 editor.undoLabel=Desfazer
 editor.cutLabel=Recortar
@@ -184,7 +189,7 @@ editor.helpLabel=Ajuda
 #labels dos itens
 editor.saveLabel=Salvar
 editor.printLabel=Imprimir...
-
+editor.closeLabel =Close
 
 editor.redoLabel=Refazer
 editor.cut-to-clipboardLabel=Recortar
@@ -581,11 +586,12 @@ menu.mepackage.new=_Novo projeto ME...
 menu.package.open=Abrir Projeto...@O
 menu.package.openRecent=Abrir Recentes\t
 menu.package.openNonBlueJ=Abrir Projeto N\u00E3o _BlueJ...
+menu.package.openArchive=Abrir ZIP/JAR...
 menu.package.close=Fechar@W
 menu.package.save=Salvar@S
 menu.package.saveAs=S_alvar como...
 menu.package.import=_Importar...
-menu.package.export=_Criar arquivo jar
+menu.package.export=_Criar arquivo Jar
 menu.package.pageSetup=Configurar P\u00E1gina...@^P
 menu.package.print=Imprimir...@P
 menu.package.quit=_Sair@S
